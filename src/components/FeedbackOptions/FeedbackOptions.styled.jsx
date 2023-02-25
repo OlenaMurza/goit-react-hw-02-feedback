@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const Button = styled.button`
   padding: 5px 15px;
-  border-radius: 4px;
-  box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
+  border: 2px solid grey;
+  border-radius: 5px;
   text-transform: capitalize;
   font-weight: bold;
   cursor: pointer;
@@ -12,8 +12,7 @@ export const Button = styled.button`
   }
   :hover,
   :focus {
-    background-color: ivory;
-    color: white;
-    transition: all 0.2s;
+    background-color: #1E90FF;
+    color: black;
   }
 `;
